@@ -36,6 +36,8 @@ Generates clean, formal SVG charts for blog posts and articles.
 
 ## Getting Started
 
+> **Not technical? Never used a terminal?** No problem. [Read the beginner-friendly walkthrough](GETTING-STARTED-FOR-BEGINNERS.md) -- it explains everything from scratch, step by step.
+
 ### 1. Get Factory
 
 These agents run on [Factory](https://factory.ai). You need a Factory account (Pro plan starts at $20/mo).
