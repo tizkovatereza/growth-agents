@@ -10,6 +10,7 @@ These are not generic AI prompts. They are opinionated, specialized agents built
 
 An AI writing coach that helps you finish articles when you're stuck on the last 20%.
 
+- On first use, asks you about your writing style (sentence length, punctuation habits, forbidden words, tone, sample writing) and adapts permanently.
 - Studies and preserves your exact writing style. Never overwrites your voice.
 - Gives honest, no-fluff feedback. Tells you what works and what doesn't.
 - Identifies gaps in your draft and suggests specific additions.
@@ -67,7 +68,6 @@ Start a dedicated session with any agent:
 ```bash
 droid writing-coach-style-preserving-finisher
 droid chart-maker-formal-svg
-droid twitter-growth-agent
 ```
 
 Once installed, they're also available as subagents inside any other Factory session. You can also extend them with [MCP integrations](https://docs.factory.ai/cli/configuration/mcp.md), connect your own API keys via [BYOK](https://docs.factory.ai/cli/byok/overview.md), or build your own agents using the [custom droids guide](https://docs.factory.ai/cli/configuration/custom-droids.md).
