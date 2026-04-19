@@ -1,31 +1,13 @@
-# Custom Growth Agents
+# Growth Agents
 
-A collection of custom AI agents (droids) built for growth. Content creation, distribution, data visualization, and everything in between.
+Custom AI agents built for growth. Content creation, distribution, data visualization, and shipping faster.
 
-These are not generic AI prompts. They are opinionated, specialized agents that preserve your voice, push you to ship, and help you build a content engine that actually drives growth.
-
-## What are custom droids?
-
-Custom droids are reusable AI agents built on [Factory](https://docs.factory.ai). Think of them as specialized teammates you can spin up anytime. Each droid has a specific job, a defined personality, and a set of tools it can use.
-
-### How is this different from Claude Skills, GPTs, or Codex custom agents?
-
-- **Claude Skills** are saved prompts inside Claude. They don't have tool access, can't create files, and live inside one product. Custom droids can read, write, search the web, run code, and interact with your filesystem and APIs.
-- **OpenAI GPTs** are chatbot wrappers. They're good for Q&A but can't take real actions. Droids execute. They create files, push to GitHub, edit your drafts, generate assets.
-- **Codex custom agents** are code-focused. They're great for engineering tasks but aren't built for growth workflows like writing, content distribution, or visual asset creation.
-- **Custom droids** are multi-modal growth agents. They combine deep prompt engineering with real tool access. A writing droid doesn't just suggest edits. It corrects your grammar, generates HN-optimized titles, coaches you to finish, and reminds you to distribute across every channel. A chart droid doesn't just describe a chart. It creates a production-ready SVG file you can embed in your blog post.
-
-### Why "growth agents"?
-
-Because the bottleneck for most founders and creators isn't ideas. It's execution. Writing the post, making the chart, publishing it everywhere, doing it consistently. These agents close that gap.
-
-## Available Agents
+## Agents
 
 ### writing-coach-style-preserving-finisher
 
 An AI writing coach that helps you finish articles when you're stuck on the last 20%.
 
-**What it does:**
 - Studies and preserves your exact writing style. Never overwrites your voice.
 - Gives honest, no-fluff feedback. Tells you what works and what doesn't.
 - Identifies gaps in your draft and suggests specific additions.
@@ -42,7 +24,6 @@ An AI writing coach that helps you finish articles when you're stuck on the last
 
 Generates clean, formal SVG charts for blog posts and articles.
 
-**What it does:**
 - Creates production-ready SVG files you can embed anywhere.
 - Supports timeline charts, pie charts, bar charts, and conceptual diagrams.
 - No overlapping text. Readable labels with generous padding. Visible but subtle axes.
@@ -50,6 +31,8 @@ Generates clean, formal SVG charts for blog posts and articles.
 - Outputs self-contained SVGs with no external dependencies.
 
 **Best for:** Data visualizations in blog posts, article illustrations, presentation assets, social media graphics.
+
+---
 
 ## Setup
 
@@ -67,6 +50,21 @@ droid chart-maker-formal-svg
 ```
 
 Or mention them in any Factory session and they'll be available as subagents.
+
+## What are growth agents?
+
+These are not generic AI prompts. They are opinionated, specialized agents that preserve your voice, push you to ship, and help you build a content engine that actually drives growth.
+
+Custom droids are reusable AI agents built on [Factory](https://docs.factory.ai). Think of them as specialized teammates you can spin up anytime. Each droid has a specific job, a defined personality, and a set of tools it can use.
+
+The bottleneck for most founders and creators isn't ideas. It's execution. Writing the post, making the chart, publishing it everywhere, doing it consistently. These agents close that gap.
+
+## How is this different from Claude Skills, GPTs, or Codex?
+
+- **Claude Skills** are saved prompts inside Claude. They don't have tool access, can't create files, and live inside one product. Custom droids can read, write, search the web, run code, and interact with your filesystem and APIs.
+- **OpenAI GPTs** are chatbot wrappers. They're good for Q&A but can't take real actions. Droids execute. They create files, push to GitHub, edit your drafts, generate assets.
+- **Codex custom agents** are code-focused. They're great for engineering tasks but aren't built for growth workflows like writing, content distribution, or visual asset creation.
+- **Custom droids** are multi-modal growth agents. They combine deep prompt engineering with real tool access. A writing droid doesn't just suggest edits. It corrects your grammar, generates HN-optimized titles, coaches you to finish, and reminds you to distribute across every channel. A chart droid doesn't just describe a chart. It creates a production-ready SVG file you can embed in your blog post.
 
 ## Contributing
 
