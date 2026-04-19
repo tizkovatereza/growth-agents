@@ -2,6 +2,8 @@
 
 Custom AI agents built for growth. Content creation, distribution, data visualization, and shipping faster.
 
+These are not generic AI prompts. They are opinionated, specialized agents built on [Factory](https://factory.ai) that preserve your voice, push you to ship, and help you build a content engine that actually drives growth. Each agent has a specific job, a defined personality, and access to [real tools](https://docs.factory.ai/cli/configuration/custom-droids.md) -- they can create files, search the web, edit your drafts, and generate assets.
+
 ## Agents
 
 ### writing-coach-style-preserving-finisher
@@ -32,6 +34,19 @@ Generates clean, formal SVG charts for blog posts and articles.
 
 **Best for:** Data visualizations in blog posts, article illustrations, presentation assets, social media graphics.
 
+### twitter-growth-agent
+
+Generates tweets, threads, and reply drafts in your voice. Not a bot. Not a scheduler. A writing partner for X/Twitter.
+
+- Repurposes your articles into tweet threads (3-5 strongest insights, not a summary).
+- Writes standalone tweets: one sharp thought, under 200 characters.
+- Drafts engagement replies that add value, not "Great post!" fluff.
+- No hashtag spam, no emoji overload, no "Thread 1/" formatting.
+- Matches your tone by studying your writing style first.
+- Suggests posting strategy: 70% value, 20% engagement, 10% personal.
+
+**Best for:** Growing on X/Twitter, repurposing blog content, engaging with your audience, consistent posting.
+
 ---
 
 ## Getting Started
@@ -40,7 +55,7 @@ Generates clean, formal SVG charts for blog posts and articles.
 
 ### 1. Get Factory
 
-These agents run on [Factory](https://factory.ai). You need a Factory account (Pro plan starts at $20/mo).
+These agents run on [Factory](https://factory.ai) -- an AI-native development platform with a [desktop app, web app, and CLI](https://docs.factory.ai/cli/getting-started/quickstart.md). You need a Factory account ([Pro plan starts at $20/mo](https://docs.factory.ai/pricing.md)).
 
 1. Go to [factory.ai](https://factory.ai) and sign up
 2. Download the desktop app or install the CLI:
@@ -65,17 +80,10 @@ Start a dedicated session with any agent:
 ```bash
 droid writing-coach-style-preserving-finisher
 droid chart-maker-formal-svg
+droid twitter-growth-agent
 ```
 
-Once installed, they're also available as subagents inside any other Factory session.
-
-## What are growth agents?
-
-These are not generic AI prompts. They are opinionated, specialized agents that preserve your voice, push you to ship, and help you build a content engine that actually drives growth.
-
-Custom droids are reusable AI agents built on [Factory](https://docs.factory.ai). Think of them as specialized teammates you can spin up anytime. Each droid has a specific job, a defined personality, and a set of tools it can use.
-
-The bottleneck for most founders and creators isn't ideas. It's execution. Writing the post, making the chart, publishing it everywhere, doing it consistently. These agents close that gap.
+Once installed, they're also available as subagents inside any other Factory session. You can also extend them with [MCP integrations](https://docs.factory.ai/cli/configuration/mcp.md), connect your own API keys via [BYOK](https://docs.factory.ai/cli/byok/overview.md), or build your own agents using the [custom droids guide](https://docs.factory.ai/cli/configuration/custom-droids.md).
 
 ## How is this different?
 
@@ -95,20 +103,7 @@ Cursor has project rules (`.cursorrules`) that guide its AI inside the IDE. They
 Devin is an autonomous software engineer. It writes code, runs tests, and ships PRs. But it's built for engineering, not growth. You can't ask Devin to coach your writing, optimize a title for Hacker News, or create an SVG chart for your blog. Factory droids are specialized for non-engineering workflows that founders and creators need.
 
 ### Why Factory Droids?
-Factory droids are multi-modal growth agents. They combine deep prompt engineering with real tool access. A writing droid doesn't just suggest edits. It corrects your grammar, generates HN-optimized titles, coaches you to finish, and reminds you to distribute across every channel. A chart droid doesn't just describe a chart. It creates a production-ready SVG file you can embed in your blog post.
-
-## Learn more about Factory
-
-- [Factory website](https://factory.ai)
-- [Documentation](https://docs.factory.ai)
-- [Custom Droids guide](https://docs.factory.ai/cli/configuration/custom-droids.md)
-- [Skills](https://docs.factory.ai/cli/configuration/skills.md)
-- [Quickstart](https://docs.factory.ai/cli/getting-started/quickstart.md)
-- [Plans & Pricing](https://docs.factory.ai/pricing.md)
-- [Bring Your Own Key (BYOK)](https://docs.factory.ai/cli/byok/overview.md)
-- [MCP integrations](https://docs.factory.ai/cli/configuration/mcp.md)
-- [Discord community](https://discord.gg/zuudFXxg69)
-- [GitHub](https://github.com/factory-ai/factory)
+The bottleneck for most founders and creators isn't ideas. It's execution. Writing the post, making the chart, publishing it everywhere, doing it consistently. Factory droids are multi-modal growth agents that combine deep prompt engineering with real tool access. A writing droid doesn't just suggest edits. It corrects your grammar, generates HN-optimized titles, coaches you to finish, and reminds you to distribute across every channel. A chart droid doesn't just describe a chart. It creates a production-ready SVG file you can embed in your blog post. Build your own with the [custom droids guide](https://docs.factory.ai/cli/configuration/custom-droids.md) or extend these with [skills](https://docs.factory.ai/cli/configuration/skills.md). Questions? Join the [Factory Discord](https://discord.gg/zuudFXxg69).
 
 ## Contributing
 
