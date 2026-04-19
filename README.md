@@ -34,19 +34,6 @@ Generates clean, formal SVG charts for blog posts and articles.
 
 **Best for:** Data visualizations in blog posts, article illustrations, presentation assets, social media graphics.
 
-### [Twitter Growth Agent](twitter-growth-agent.md)
-
-Generates tweets, threads, and reply drafts in your voice. Not a bot. Not a scheduler. A writing partner for X/Twitter.
-
-- Repurposes your articles into tweet threads (3-5 strongest insights, not a summary).
-- Writes standalone tweets: one sharp thought, under 200 characters.
-- Drafts engagement replies that add value, not "Great post!" fluff.
-- No hashtag spam, no emoji overload, no "Thread 1/" formatting.
-- Matches your tone by studying your writing style first.
-- Suggests posting strategy: 70% value, 20% engagement, 10% personal.
-
-**Best for:** Growing on X/Twitter, repurposing blog content, engaging with your audience, consistent posting.
-
 ---
 
 ## Getting Started
