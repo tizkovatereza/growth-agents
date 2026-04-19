@@ -77,12 +77,38 @@ Custom droids are reusable AI agents built on [Factory](https://docs.factory.ai)
 
 The bottleneck for most founders and creators isn't ideas. It's execution. Writing the post, making the chart, publishing it everywhere, doing it consistently. These agents close that gap.
 
-## How is this different from Claude Skills, GPTs, or Codex?
+## How is this different?
 
-- **Claude Skills** are saved prompts inside Claude. They don't have tool access, can't create files, and live inside one product. Custom droids can read, write, search the web, run code, and interact with your filesystem and APIs.
-- **OpenAI GPTs** are chatbot wrappers. They're good for Q&A but can't take real actions. Droids execute. They create files, push to GitHub, edit your drafts, generate assets.
-- **Codex custom agents** are code-focused. They're great for engineering tasks but aren't built for growth workflows like writing, content distribution, or visual asset creation.
-- **Custom droids** are multi-modal growth agents. They combine deep prompt engineering with real tool access. A writing droid doesn't just suggest edits. It corrects your grammar, generates HN-optimized titles, coaches you to finish, and reminds you to distribute across every channel. A chart droid doesn't just describe a chart. It creates a production-ready SVG file you can embed in your blog post.
+### Claude Skills vs Factory Droids
+Claude Skills are saved prompts inside Claude. They don't have tool access, can't create files, and live inside one product. Factory droids can read, write, search the web, run code, and interact with your filesystem and APIs.
+
+### OpenAI GPTs vs Factory Droids
+GPTs are chatbot wrappers. They're good for Q&A but can't take real actions. Droids execute. They create files, push to GitHub, edit your drafts, generate assets.
+
+### Codex Custom Agents vs Factory Droids
+Codex agents are code-focused. They're great for engineering tasks but aren't built for growth workflows like writing, content distribution, or visual asset creation.
+
+### Cursor Rules vs Factory Droids
+Cursor has project rules (`.cursorrules`) that guide its AI inside the IDE. They're great for coding conventions but they're scoped to code editing. You can't use Cursor rules to write a blog post, generate a chart, or push to GitHub. Factory droids work across your whole system, not just inside an editor.
+
+### Devin (Cognition) vs Factory Droids
+Devin is an autonomous software engineer. It writes code, runs tests, and ships PRs. But it's built for engineering, not growth. You can't ask Devin to coach your writing, optimize a title for Hacker News, or create an SVG chart for your blog. Factory droids are specialized for non-engineering workflows that founders and creators need.
+
+### Why Factory Droids?
+Factory droids are multi-modal growth agents. They combine deep prompt engineering with real tool access. A writing droid doesn't just suggest edits. It corrects your grammar, generates HN-optimized titles, coaches you to finish, and reminds you to distribute across every channel. A chart droid doesn't just describe a chart. It creates a production-ready SVG file you can embed in your blog post.
+
+## Learn more about Factory
+
+- [Factory website](https://factory.ai)
+- [Documentation](https://docs.factory.ai)
+- [Custom Droids guide](https://docs.factory.ai/cli/configuration/custom-droids.md)
+- [Skills](https://docs.factory.ai/cli/configuration/skills.md)
+- [Quickstart](https://docs.factory.ai/cli/getting-started/quickstart.md)
+- [Plans & Pricing](https://docs.factory.ai/pricing.md)
+- [Bring Your Own Key (BYOK)](https://docs.factory.ai/cli/byok/overview.md)
+- [MCP integrations](https://docs.factory.ai/cli/configuration/mcp.md)
+- [Discord community](https://discord.gg/zuudFXxg69)
+- [GitHub](https://github.com/factory-ai/factory)
 
 ## Contributing
 
