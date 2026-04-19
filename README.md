@@ -34,15 +34,31 @@ Generates clean, formal SVG charts for blog posts and articles.
 
 ---
 
-## Setup
+## Getting Started
 
-Copy the agent files to your Factory droids directory:
+### 1. Get Factory
+
+These agents run on [Factory](https://factory.ai). You need a Factory account (Pro plan starts at $20/mo).
+
+1. Go to [factory.ai](https://factory.ai) and sign up
+2. Download the desktop app or install the CLI:
+   ```bash
+   curl -fsSL https://app.factory.ai/install.sh | sh
+   ```
+3. Run `droid` and log in when prompted
+
+### 2. Install the agents
+
+Clone this repo and copy the agent files:
 
 ```bash
-cp *.md ~/.factory/droids/
+git clone https://github.com/tizkovatereza/growth-agents.git
+cp growth-agents/*.md ~/.factory/droids/
 ```
 
-Then invoke any agent:
+### 3. Use them
+
+Start a dedicated session with any agent:
 
 ```bash
 droid writing-coach-style-preserving-finisher
