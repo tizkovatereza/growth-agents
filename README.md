@@ -49,7 +49,7 @@ droid writing-coach-style-preserving-finisher
 droid chart-maker-formal-svg
 ```
 
-Or mention them in any Factory session and they'll be available as subagents.
+Once installed, they're also available as subagents inside any other Factory session.
 
 ## What are growth agents?
 
