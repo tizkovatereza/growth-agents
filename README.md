@@ -6,7 +6,8 @@ These are not generic AI prompts. They are opinionated, specialized agents built
 
 ## Agents
 
-### writing-coach-style-preserving-finisher
+### Writing Coach
+`writing-coach-style-preserving-finisher`
 
 An AI writing coach that helps you finish articles when you're stuck on the last 20%.
 
@@ -22,7 +23,8 @@ An AI writing coach that helps you finish articles when you're stuck on the last
 
 **Best for:** Blog posts, technical articles, thought pieces, Substack newsletters, HN submissions.
 
-### chart-maker-formal-svg
+### Chart Maker
+`chart-maker-formal-svg`
 
 Generates clean, formal SVG charts for blog posts and articles.
 
@@ -34,7 +36,8 @@ Generates clean, formal SVG charts for blog posts and articles.
 
 **Best for:** Data visualizations in blog posts, article illustrations, presentation assets, social media graphics.
 
-### twitter-growth-agent
+### Twitter Growth Agent
+`twitter-growth-agent`
 
 Generates tweets, threads, and reply drafts in your voice. Not a bot. Not a scheduler. A writing partner for X/Twitter.
 
