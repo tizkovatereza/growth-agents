@@ -39,7 +39,7 @@ Generates clean, formal SVG charts for blog posts and articles.
 
 ## Getting Started
 
-> **Not technical? Never used a terminal?** No problem. [Read the beginner-friendly walkthrough](GETTING-STARTED-FOR-BEGINNERS.md) -- it explains everything from scratch, step by step.
+> **Not technical? Never used a terminal?** No problem. [Read the beginner-friendly walkthrough](GETTING-STARTED-FOR-BEGINNERS.md). It explains everything from scratch, step by step, for dummies. Don't be afraid, you don't need to write code, I promise!
 
 ### 1. Get Factory
 
@@ -94,7 +94,8 @@ The bottleneck for most founders and creators isn't ideas. It's execution. Writi
 
 ## Contributing
 
-Got a growth agent that helps you ship faster? Open a PR.
+Got a growth agent that helps you ship faster? Open a PR! I will try to get to that. :) 
+T
 
 ## License
 
