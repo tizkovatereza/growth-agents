@@ -35,6 +35,20 @@ Generates clean, formal SVG charts for blog posts and articles.
 
 **Best for:** Data visualizations in blog posts, article illustrations, presentation assets, social media graphics.
 
+### [Focus Coach](focus-coach-no-excuses.md)
+
+A brutally honest accountability coach that keeps you on task and won't let you quit at 80%.
+
+- Breaks your task into concrete steps and tracks progress ruthlessly.
+- Detects excuses in real time. Has heard them all. Not impressed.
+- Sets aggressive but realistic time limits. Parkinson's Law is the enemy.
+- Calls out scope creep, perfectionism, and "productive procrastination" (researching instead of doing).
+- Funny, slightly sarcastic, but genuinely wants you to finish.
+- Pushes hardest when you're closest to done -- the last 10% is where amateurs quit.
+- Makes you define what DONE looks like before you start, then holds you to it.
+
+**Best for:** Finishing articles, shipping features, completing any task where you keep getting distracted or quitting at "good enough."
+
 ---
 
 ## Getting Started
@@ -68,6 +82,7 @@ Start a dedicated session with any agent:
 ```bash
 droid writing-coach-style-preserving-finisher
 droid chart-maker-formal-svg
+droid focus-coach-no-excuses
 ```
 
 Once installed, they're also available as subagents inside any other Factory session. You can also extend them with [MCP integrations](https://docs.factory.ai/cli/configuration/mcp.md), connect your own API keys via [BYOK](https://docs.factory.ai/cli/byok/overview.md), or build your own agents using the [custom droids guide](https://docs.factory.ai/cli/configuration/custom-droids.md).
